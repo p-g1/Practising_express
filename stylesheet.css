@@ -19,8 +19,9 @@
 		font-size: 100%;
 		line-height: 1.3em;
 		font-size: 20px;
-		letter-spacing: -1px;
+		line-height: .5;
 	}
+
 	.menu-break {
 		width: 70%;
 	}
@@ -42,11 +43,8 @@
 
 	.fc-image img {
 		display: block;
-		margin-left: auto;
-		margin-right: auto;
 		margin: 0 auto;
 	}
-
 	.footer {
 		font-size: 12px;
 		text-align: center;
@@ -57,11 +55,93 @@
 		font-family: ff-meta-serif-web-pro, Georgia, Times, serif;
 		line-height: 1.3em;
 	}
+	.inline-menu {
+		display: none;
+	}
+	p:hover { 
+    color: #c06;
+	}
 }
 
 @media only screen and (min-width: 500px) {
+	.page-menu {
+		display: none;
+	}
+	.circle-container {
+		padding-top: 5%;
+		padding-left: 10%;
+	}
+	.full-circle {
+    background-color:#c06;
+    height:200px;
+    width:200px;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    float: left;
+    }
+	li {
+		list-style-type: none;
+		display: inline-block;
+		padding-right: 4%;
+		font-family: proxima-nova-sc-osf-ext-cond, Helvetica neue, Arial, sans-serif;
+		font-size: 100%;
+		line-height: 1.3em;
+		font-size: 20px;
+	}
+	.inline-menu {
+		width: 50%;
+		padding-top: 5%;
+		float: right;
+
 
 	}
+	.main-paragraph {
+		clear: both;
+		text-align: center;
+		padding-left: 11%;
+		padding-right: 11%;
+		font-family: ff-meta-serif-web-pro, Georgia, Times, serif;
+		letter-spacing: 1px;
+	}
+	.first-break {
+		padding-top: 20%;
+		padding-bottom: 5%;
+	}
+	.second-break {
+		padding-top: 5%;
+		padding-bottom: 5%;
+	}
+	.fc-image img {
+		display: block;
+		margin: 0 auto;
+	}
+	.footer {
+		font-size: 14px;
+		text-align: center;
+		padding-top: 5%;
+		letter-spacing: 1px;
+		font-family: ff-meta-serif-web-pro, Georgia, Times, serif;
+		line-height: 1.3em;
+	}
+	li:hover { 
+    color:  #c06;
+	}
+
+}
+
+.name {
+	font-family: ff-meta-serif-web-pro, Georgia, Times, serif;
+	color: #c06;
+}
+.full-circle {
+   	opacity: 1;
+   	transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+   	}
+.full-circle:hover {
+    opacity: 0.5;
+}
 
 
 
