@@ -1,4 +1,4 @@
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1500px) {
 	.circle-container {
 		padding-top: 13%;
 	}
@@ -20,10 +20,9 @@
 		line-height: 1.3em;
 		font-size: 20px;
 		line-height: .5;
-	}
+		outline-color: rgb(37, 37, 37);
+		outline-style: none;
 
-	.menu-break {
-		width: 70%;
 	}
 	.main-paragraph {
 		font-family: ff-meta-serif-web-pro, Georgia, Times, serif;
@@ -36,6 +35,10 @@
 		line-height: 1.3em;
 
 	}
+	.page-menu p {
+		color: #484848;
+	}
+	
 	.fc-image {
 		padding-top: 5%;
 		min-width: 60%;
@@ -63,7 +66,7 @@
 	}
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 1500px) {
 	.page-menu {
 		display: none;
 	}
@@ -129,6 +132,24 @@
 
 }
 
+@media only screen and (min-width: 900px) {
+	.circle-container {
+		padding-top: 13%;
+	}
+	.full-circle {
+    background-color:#c06;
+    height:200px;
+    width:200px;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    margin-left: auto;
+    margin-right: auto;	
+	}
+
+}
+
+
+
 .name {
 	font-family: ff-meta-serif-web-pro, Georgia, Times, serif;
 	color: #c06;
@@ -142,6 +163,7 @@
 .full-circle:hover {
     opacity: 0.5;
 }
+
 
 
 
