@@ -1,4 +1,5 @@
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 700px) {
+	/* for mobile screens */
 	.circle-container {
 		padding-top: 13%;
 	}
@@ -38,7 +39,7 @@
 	.page-menu p {
 		color: #484848;
 	}
-	
+
 	.fc-image {
 		padding-top: 5%;
 		min-width: 60%;
@@ -61,12 +62,15 @@
 	.inline-menu {
 		display: none;
 	}
-	p:hover { 
+	p:hover {
     color: #c06;
+	}
+	.contact {
+		padding-left: 15%;
 	}
 }
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width : 1500) {
 	.page-menu {
 		display: none;
 	}
@@ -126,7 +130,7 @@
 		font-family: ff-meta-serif-web-pro, Georgia, Times, serif;
 		line-height: 1.3em;
 	}
-	li:hover { 
+	li:hover {
     color:  #c06;
 	}
 
@@ -143,7 +147,7 @@
     -webkit-border-radius:100px;
     -moz-border-radius:100px;
     margin-left: auto;
-    margin-right: auto;	
+    margin-right: auto;
 	}
 
 }
@@ -163,10 +167,3 @@
 .full-circle:hover {
     opacity: 0.5;
 }
-
-
-
-
-
-
-
